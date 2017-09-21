@@ -5,7 +5,11 @@
     <string name="ButtonText">मैं एक बटन हूँ</string>
 
 
-
+    <string name="login_message">लॉग इन करें</string>
+    <string name="password_message">पासवर्ड</string>
+    <string name="radio_button">रेडियो बटन</string>
+    <string name="Check_Box">चेक बॉक्स</string>
+    <string name="Switch_Box">यह क्या करता है?</string>
 
 
 </resources>

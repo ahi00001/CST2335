@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:layout_height="wrap_content"
+    tools:context="com.example.himanshu.androidlabs.ListItemsActivity">
+
+    <RadioButton
+        android:id="@+id/radioMale"
+        android:text="@string/radio_button"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="fill"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:checked="false" />
+
+    <CheckBox
+        android:id="@+id/checkbox_cheese"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="fill"
+        android:layout_row="0"
+        android:layout_column="1"
+
+        android:text="@string/Check_Box" />
+
+    <Switch
+        android:id="@+id/simpleSwitch"
+        android:layout_columnWeight="2"
+        android:layout_rowWeight="2"
+        android:gravity="fill"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="@string/Switch_Box" />
+
+    <ImageButton
+        android:id="@+id/simpleImageButton"
+        android:layout_columnWeight="2"
+        android:layout_rowWeight="2"
+        android:gravity="fill"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:src="@android:drawable/ic_menu_camera" />
+
+
+</GridLayout>
